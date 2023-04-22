@@ -1,18 +1,22 @@
 #include <stdio.h>
+
 /**
- *main -Entry point
- *Description: alphabet in lowercase
- *Return: always 0
+ *main - Entry point
+ *Description: Print number in lowercase
+ *Return: Always 0
  */
+
 int main(void)
 {
-	int x = 97;
+	int a = 97;
 
-	while (x <= 122)
+	while (a <= 122)
 	{
-		putchar(x);
-		x++;
+		putchar(a);
+		a++;
 	}
-	putchar("\n");
+
+	putchar('\n');
+
 	return (0);
 }
