@@ -3,20 +3,16 @@
 
 /**
   * main - Entry point
-  * Description - 'Printing all arguments one at a time'
-  * @argc: number of arguments
+  * Description - 'Printing number of arguments passed"
+  * @argc: number of arguemnts
   * @argv: array of arguments passed
   * Return: Always 0 (sucess)
   */
 
 int main(int argc, char *argv[])
 {
-	int i;
+	(void) argv;
+	printf("%d\n", argc - 1);
 
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
 	return (0);
-
 }
